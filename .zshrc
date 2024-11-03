@@ -31,7 +31,7 @@ function o() {
 }
 
 # git 
-function g() {
+function cc() {
   if [ -z "$1" ]; then 
     echo "You must specifiy a commit message"
     return 1
@@ -50,7 +50,7 @@ function g() {
   fi
 }
 
-function switch() {
+function b() {
   if [ -z "$1" ]; then
     echo "You must specify a branch name" 
     return 1
